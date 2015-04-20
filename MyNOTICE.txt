@@ -1,7 +1,14 @@
                                   efflux
                                   ======
 
+======================================================================================================
 /src/functionaltest/java/com/biasedbit/efflux/session:
   *    SinglePariticipantSessionFunctionalTest.java(line 176): pack.setPayloadType(this.payloadType)
        cann't find the correspoing member, but only "Set<Integer> payloadTypes" can be found.
        change to "this.payloadTypes.iterator().next()"
+
+
+
+======================================================================================================
+All the necessay libraries has been included in the AllNecessayLib file folder,need for importing proj-
+ect.
